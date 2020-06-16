@@ -87,3 +87,11 @@ function shapeSpace_widgets_init() {
 add_action('widgets_init', 'shapeSpace_widgets_init');
 
 
+function swev_register_menues() {
+    register_nav_menus(
+        array(
+            'footer-menu' => __( 'Footer Menu' ),
+        )
+    );
+}
+add_action( 'init', 'swev_register_menues' );

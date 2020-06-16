@@ -1,6 +1,6 @@
-		<div class="footer">
-			<p>&copy; <?php echo date('Y') .' '. get_bloginfo('name'); ?></p>
-		</div>
+		<footer>
+            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+		</footer>
 		
 	</div>
 	
