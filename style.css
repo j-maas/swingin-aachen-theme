@@ -104,10 +104,10 @@ main h2 {
 }
 
 main h1 {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 main h2 {
