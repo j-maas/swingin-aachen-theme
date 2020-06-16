@@ -95,3 +95,9 @@ function swev_register_menues() {
     );
 }
 add_action( 'init', 'swev_register_menues' );
+
+function swev_title( $title )
+{
+    return get_bloginfo('name');
+}
+add_filter( 'pre_get_document_title', 'swev_title' );
