@@ -1,5 +1,5 @@
 		<footer>
-            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 		</footer>
 		
 	</div>
