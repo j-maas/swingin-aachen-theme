@@ -151,6 +151,10 @@ p + p {
 }
 
 @media (min-width: 32rem) {
+  body {
+    margin: 0.5rem;
+  }
+
   main {
     padding: 1rem;
   }
