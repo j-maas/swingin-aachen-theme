@@ -131,7 +131,7 @@ main h3 {
   width: -webkit-fit-content;
   width: fit-content;
   font-size: 1rem;
-  padding: 0 0.25rem;
+  padding: 0 0.35rem;
   border: 0.15rem solid #a3152c;
 }
 
@@ -151,16 +151,6 @@ p {
 
 p + p {
   margin-top: 0.4rem;
-}
-
-@media (min-width: 32rem) {
-  body {
-    margin: 0.5rem;
-  }
-
-  main {
-    padding: 1rem;
-  }
 }
 
 footer {
@@ -186,3 +176,20 @@ footer ul.menu li {
   margin: 0.25rem 0.75rem;
 }
 
+@media (min-width: 32rem) {
+  body {
+    margin: 0.5rem;
+  }
+
+  header {
+    padding: 1rem 1.5rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  footer {
+    padding: 0.5rem 0.75rem;
+  }
+}
