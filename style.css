@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=optional);
 
 /* poppins-700 - latin */
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
+  font-display: fallback;
   src: local('Poppins Bold'), local('Poppins-Bold'),
   url('./fonts/poppins-v9-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('./fonts/poppins-v9-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -15,6 +16,7 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
+  font-display: fallback;
   src: local('Nunito Regular'), local('Nunito-Regular'),
   url('./fonts/nunito-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('./fonts/nunito-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -25,6 +27,7 @@
   font-family: 'Nunito';
   font-style: italic;
   font-weight: 400;
+  font-display: optional;
   src: local('Nunito Italic'), local('Nunito-Italic'),
   url('./fonts/nunito-v12-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('./fonts/nunito-v12-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -35,6 +38,7 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
+  font-display: optional;
   src: local('Nunito SemiBold'), local('Nunito-SemiBold'),
   url('./fonts/nunito-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('./fonts/nunito-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -45,6 +49,7 @@
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 900;
+  font-display: optional;
   src: local('Nunito Black'), local('Nunito-Black'),
   url('./fonts/nunito-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('./fonts/nunito-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
