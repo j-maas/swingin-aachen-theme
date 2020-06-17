@@ -33,6 +33,16 @@ h3 {
   font-family: "Poppins", "Arial Black", sans-serif;
 }
 
+a {
+  font-weight: 600;
+  text-decoration-style: dotted;
+  color: #821123;
+}
+
+a:hover {
+  text-decoration-style: wavy;
+}
+
 body {
   overflow: auto;
   max-width: 48rem;
@@ -125,14 +135,9 @@ main h3 {
   border: 0.15rem solid #a3152c;
 }
 
-a {
-  font-weight: 600;
-  text-decoration-style: dotted;
-  color: #821123;
-}
-
-a:hover {
-  text-decoration-style: wavy;
+main ul,
+main ol {
+  margin: 0.5rem;
 }
 
 strong {
