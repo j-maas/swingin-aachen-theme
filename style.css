@@ -179,6 +179,14 @@ footer a {
   margin: 0.25rem 0.75rem;
 }
 
+.menu .current_page_item > a {
+  text-decoration-style: solid;
+}
+
+.menu .current_page_item > a:hover {
+  text-decoration-style: wavy;
+}
+
 @media (min-width: 32rem) {
   body {
     margin: 0.5rem;
