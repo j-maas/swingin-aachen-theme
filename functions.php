@@ -91,6 +91,7 @@ function swev_register_menues() {
     register_nav_menus(
         array(
             'footer-menu' => __( 'Footer Menu' ),
+            'nav-menu' => __( 'Navigation Menu' ),
         )
     );
 }
