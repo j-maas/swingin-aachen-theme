@@ -242,6 +242,7 @@ footer a {
 
 .menu .current_page_item > a {
   text-decoration-style: solid;
+  font-weight: 900;
 }
 
 .menu .current_page_item > a:hover {
