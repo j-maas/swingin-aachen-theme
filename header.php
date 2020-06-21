@@ -11,8 +11,10 @@
 		<div class="wrap">
 			
 			<header>
-				<a href="<?php echo home_url('/'); ?>" class="brand"><h1><?php bloginfo('name'); ?></h1>
-				<h2><?php bloginfo('description'); ?></h2></a>
+				<a href="<?php echo home_url('/'); ?>" class="brand">
+                    <img src="<?php echo get_template_directory_uri()?>/images/wordmark-bright.svg" class="logo" alt="Swingin’ Aachen e. V."/>
+                    <span class="tagline"><?php bloginfo('description'); ?></span>
+                </a>
 
                 <nav>
                     <?php wp_nav_menu( array( 'theme_location' => 'nav-menu' ) ); ?>

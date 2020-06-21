@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=optional);
-
 /* poppins-700 - latin */
 @font-face {
   font-family: 'Poppins';
@@ -126,26 +124,19 @@ header > * {
   margin: 0.5rem 1rem;
 }
 
-header h1,
-header h2 {
-  margin: 0;
-  padding: 0;
-  color: #efe8de;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  font-family: "Dancing Script", "Brush Script MT", cursive;
-  line-height: 1;
-  margin-bottom: 0.2rem;
-}
-
-header h2 {
-  font-size: 1rem;
-}
-
-header .brand {
+header a.brand {
   text-decoration: none;
+}
+
+header .logo {
+  display: block;
+  width: 20rem;
+  max-width: 100%;
+  min-width: 12rem;
+}
+
+header .tagline {
+  font-family: "Poppins", "Arial Black", sans-serif;
 }
 
 main {
