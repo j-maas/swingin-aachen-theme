@@ -90,6 +90,13 @@ a {
   color: #821123;
 }
 
+/*
+  Ensure links inside bold text are bold.
+ */
+strong a {
+  font-weight: inherit;
+}
+
 a:hover {
   text-decoration-style: wavy;
 }
