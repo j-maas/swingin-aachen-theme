@@ -138,6 +138,7 @@ header a.brand {
 header .logo {
   display: block;
   width: 20rem;
+  height: auto;
   max-width: 100%;
   min-width: 12rem;
 }

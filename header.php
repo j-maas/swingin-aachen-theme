@@ -12,7 +12,7 @@
 			
 			<header>
 				<a href="<?php echo home_url('/'); ?>" class="brand">
-                    <img src="<?php echo get_template_directory_uri()?>/images/wordmark-bright.svg" class="logo" alt="Swingin’ Aachen e. V."/>
+                    <img src="<?php echo get_template_directory_uri()?>/images/wordmark-bright.svg" class="logo" alt="Swingin’ Aachen e. V." width="1277" height="208"/>
                     <span class="tagline"><?php bloginfo('description'); ?></span>
                 </a>
 
