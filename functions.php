@@ -52,7 +52,7 @@ function shapeSpace_frontend_scripts() {
 	
 	// wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer )
 	
-	wp_enqueue_script('blank-theme', get_template_directory_uri() .'/js/blank.js', array('jquery'), null, true);
+	wp_enqueue_script('blank-theme', get_template_directory_uri() .'/js/blank.js', array(), null, true);
 	
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		
@@ -63,7 +63,12 @@ function shapeSpace_frontend_scripts() {
 }
 add_action('wp_enqueue_scripts', 'shapeSpace_frontend_scripts');
 
-
+function remove_jquery_migrate($scripts){
+    if (!is_admin()) {
+        $scripts->remove('jquery');
+    }
+}
+add_filter( 'wp_default_scripts', 'remove_jquery_migrate' );
 
 // register widgets
 function shapeSpace_widgets_init() {
