@@ -216,6 +216,7 @@ footer {
 
 .seal {
   height: 10rem;
+  width: auto;
   display: block;
   margin: 1rem auto;
   filter: drop-shadow(0 0.2rem 0.08rem hsla(0, 0%, 0%, 0.1));
