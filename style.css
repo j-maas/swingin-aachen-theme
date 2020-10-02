@@ -64,7 +64,6 @@ html {
   background-position: 0 0, 3.5rem 3.5rem;
   background-size: 7rem 7rem;
   display: flex;
-  justify-content: center;
 }
 
 ol,
@@ -103,6 +102,7 @@ a:hover {
 
 body {
   overflow: auto;
+  min-width: 12rem;
   max-width: 40rem;
   margin: 0.5rem 0;
   font-size: 1rem;
@@ -140,7 +140,6 @@ header .logo {
   width: 20rem;
   height: auto;
   max-width: 100%;
-  min-width: 12rem;
 }
 
 header .tagline {
@@ -250,6 +249,10 @@ footer a {
 }
 
 @media (min-width: 32rem) {
+  html {
+    justify-content: center;
+  }
+
   body {
     margin: 0.5rem;
   }
