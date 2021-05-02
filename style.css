@@ -159,7 +159,8 @@ main h3 {
 }
 
 main h1,
-main h2 {
+main h2,
+main h3 {
   background: #a3152c;
   color: #efe8de;
 }
@@ -183,8 +184,7 @@ main h3 {
   width: -webkit-fit-content;
   width: fit-content;
   font-size: 1rem;
-  padding: 0 0.35rem;
-  border: 0.15rem solid #a3152c;
+  padding: 0.2rem 0.5rem;
 }
 
 main ul,
@@ -203,6 +203,31 @@ p {
 
 p + p {
   margin-top: 0.8rem;
+}
+
+.wp-block-file {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.wp-block-file a {
+  margin-right: 0.8rem;
+}
+
+.wp-block-file__button {
+  margin-right: 0;
+  padding: 0.1rem 0.2rem;
+  border: 0.15rem solid #a3152c;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.wp-block-file__button:hover {
+  background: #a3152c;
+  color: #efe8de;
 }
 
 footer {
