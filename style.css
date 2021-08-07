@@ -79,7 +79,8 @@ li::marker {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Poppins", "Arial Black", sans-serif;
 }
 
@@ -151,7 +152,8 @@ main {
 
 main h1,
 main h2,
-main h3 {
+main h3,
+main h4 {
   margin-top: 1rem;
   margin-bottom: 0.4rem;
   border-radius: 0.3rem;
@@ -182,6 +184,11 @@ main h2 {
 main h3 {
   width: -moz-fit-content;
   width: fit-content;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+main h4 {
   font-size: 1rem;
   padding: 0.2rem 0.5rem;
 }
