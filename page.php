@@ -7,7 +7,7 @@
 			$parent = get_post_parent();
 			if ($parent) { ?>
 			<nav class="backlink">
-				<a href="<?php echo get_permalink($parent->ID); ?>">Zurück zu "<?php echo $parent->post_title; ?>"</a>
+				<a href="<?php echo get_permalink($parent->ID); ?>">Zurück zu &#8222;<?php echo $parent->post_title; ?>&#8220;</a>
 			</nav>
 		<?php } ?>
 		<main>
