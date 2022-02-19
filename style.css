@@ -86,7 +86,6 @@ h4 {
 
 a {
   font-weight: 600;
-  text-decoration-style: dotted;
   color: #821123;
 }
 
@@ -144,6 +143,11 @@ header .logo {
 
 header .tagline {
   font-family: "Poppins", "Arial Black", sans-serif;
+}
+
+.backlink {
+  padding: 0.5rem 1rem;
+  padding-bottom: 0;
 }
 
 main {
