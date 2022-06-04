@@ -63,21 +63,6 @@ function shapeSpace_frontend_scripts() {
 }
 add_action('wp_enqueue_scripts', 'shapeSpace_frontend_scripts');
 
-function remove_unnecessary_js($scripts){
-    if (!is_admin()) {
-        $scripts->remove('jquery');
-    }
-}
-add_filter( 'wp_default_scripts', 'remove_unnecessary_js' );
-
-function remove_unnecessary_css(){
-    wp_dequeue_style( 'wp-block-library' );
-}
-add_action( 'wp_enqueue_scripts', 'remove_unnecessary_css' );
-
-remove_action('wp_head', 'print_emoji_detection_script', 7);
-remove_action('wp_print_styles', 'print_emoji_styles');
-
 // register widgets
 function shapeSpace_widgets_init() {
 	
