@@ -192,6 +192,20 @@ main h3 {
   padding: 0.2rem 0.5rem;
 }
 
+.simcal-nav h3 {
+  width: 100%;
+  color: #821123;
+  background: none;
+}
+
+main .simcal-default-calendar-light .simcal-nav-button {
+  color: #821123 !important;
+}
+
+main .simcal-default-calendar-light .simcal-nav-button:disabled {
+  opacity: 0.25;
+}
+
 main h4 {
   font-size: 1rem;
   padding: 0.2rem 0.5rem;
