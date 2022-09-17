@@ -251,7 +251,10 @@ p + p {
   margin-right: 0.8rem;
 }
 
-.wp-block-file__button {
+.wp-block-file .wp-block-file__button,
+.wp-block-file .wp-block-file__button:visited {
+  background: inherit;
+  color: #a3152c !important;
   margin-right: 0;
   padding: 0.1rem 0.2rem;
   border: 0.15rem solid #a3152c;
@@ -259,9 +262,9 @@ p + p {
   text-decoration: none;
 }
 
-.wp-block-file__button:hover {
+.wp-block-file .wp-block-file__button:hover {
   background: #a3152c;
-  color: #efe8de;
+  color: #efe8de !important;
 }
 
 footer {
